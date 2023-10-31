@@ -19,7 +19,7 @@ if(isset($post['id']) && isset($post['deletar'])){
 
     $bd = new Database();
 
-    if($post['deletar'] == 'livros'){
+    if($post['deletar'] == 'livro'){
 
         $query = $bd->query("SELECT `id` FROM livros WHERE `id` = {$id} AND id_biblioteca = '{$_SESSION['idbiblioteca']}'");
 
