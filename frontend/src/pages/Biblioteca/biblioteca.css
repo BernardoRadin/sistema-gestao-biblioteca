@@ -1,0 +1,162 @@
+.middle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img{
+    height: 40px;
+}
+
+.aceitar,.recusar{
+    width: 31px;
+    padding: 10px;
+}
+
+.aceitar:hover,.recusar:hover{
+    transform: scale(1.03);
+}
+
+.div-aceitar-recusar{
+    float: right;
+}
+
+.div-info-text{
+    display: inline-block
+}
+
+.div-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-height: 270px;
+    overflow-y: auto;
+    padding: 10px 0px 10px 0px;
+}
+
+.select{
+    position: relative;
+    border-top: 35px solid #136aad;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    min-height: 500px;
+    box-shadow: 5px 5px 20px 10px rgb(235, 235, 235);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.title-new{
+    color: white;
+    font-size: 22px
+}
+
+.new{
+    width: 80%;
+    max-width: 448px;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: #136aad;
+    box-shadow: 0 0 6px 6px rgb(235, 235, 235);
+    transition: all 0.5s;
+    padding: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new:hover{
+    background-color: #0e5082;
+}
+
+.invite{
+    float: right;
+    padding: 20px;
+    width: 30px;
+    cursor: pointer
+}
+
+.div-invite{
+    width: 100%;
+}
+
+.new-lib {
+    height: 60px !important;
+    border-radius: 5px !important;
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+.input-lib{
+    height: 45px !important;
+}
+
+.box-select{
+    width: 80%;
+    max-width: 448px;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 6px 6px rgb(235, 235, 235);
+    transition: all 0.5s;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.name-biblioteca{
+    font-size: 21px;
+    color:#292929;
+}
+
+.name-user{
+    font-size: 16px
+}
+
+.box-select:hover{
+    transform: scale(1.03);
+}
+
+.title-biblioteca{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    padding: 14px
+}
+
+.div-form-new{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.div-form-new label{
+    color:#136aad;
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+    font-weight: bold;
+}
+
+.voltar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-weight: bold;
+    color:#0e5082;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.voltar:hover{
+    color:#084370;
+    transform: scale(1.02);
+}

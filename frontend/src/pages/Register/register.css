@@ -1,0 +1,18 @@
+.middle-register{
+    background-color:rgb(255, 255, 255);
+    width: 90%;
+    max-width: 400px;
+    height: 550px;
+    box-shadow: 5px 5px 15px 15px rgb(235, 235, 235);;
+}
+
+input[type=email]{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 38px;
+    border: none;
+    background-color: rgb(235, 233, 233);
+    font-size: 16px;
+    padding: 4px;
+
+}

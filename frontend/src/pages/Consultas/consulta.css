@@ -1,0 +1,31 @@
+
+.consulta{
+    background-color: #256da4;
+    color: white;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.consultas{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px rgb(221, 220, 220)
+}
+
+.consulta:hover{
+    background-color: #105487;
+}
+
+.div-form{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

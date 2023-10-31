@@ -1,0 +1,50 @@
+.table-consulta{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 70px;
+    font-size: 18px
+}
+
+.table-consulta th{
+    color: white;
+    background-color: #256da4;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+}
+
+.table-consulta td{
+    border: 1px solid #e3e3e3;
+    padding: 8px;
+    text-align: center;
+}
+
+.table-consulta  tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.table-consulta tr:hover{
+    background-color: #ddd;
+}
+
+.td-excluir,.td-editar{
+    text-align: center;
+}
+
+.svg-excluir{
+    cursor: pointer;
+    fill: white;
+    width: 14px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: rgb(213, 0, 0);
+}
+
+.svg-editar{
+    cursor: pointer;
+    fill: rgb(32, 32, 32);
+    padding: 8px;
+    width: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+}

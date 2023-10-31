@@ -1,0 +1,79 @@
+.container-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.div-image{
+    text-align: center;
+}
+
+.img{
+    width: 140px;
+    margin-top: 20px;
+}
+
+.middle-login{
+    background-color:rgb(255, 255, 255);
+    width: 90%;
+    max-width: 400px;
+    height: 500px;
+    box-shadow: 5px 5px 15px 15px rgb(235, 235, 235);
+}
+
+.title{
+    text-align: center;
+    color: #136aad;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.form > input[type=text], input[type=password]{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 38px;
+    border: none;
+    background-color: rgb(235, 233, 233);
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.submit{
+    width: 100%;
+    height: 40px;
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin-top: 25px;
+    border-radius: 3px;
+    background-color:rgb(23, 127, 224);
+    cursor: pointer
+}
+
+.submit:hover{
+    background-color:rgb(15, 107, 194);
+}
+
+.register{
+    text-decoration: none;
+    padding-top: 6px;
+}
+
+.forgot{
+    float: right;
+}
+
+.error-login{
+    text-align: center;
+    color: red;
+    margin-top: 5px;
+}

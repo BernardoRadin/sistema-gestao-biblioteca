@@ -1,0 +1,60 @@
+
+.div-deletar{
+    height: 270px;
+    width: 380px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    z-index: 11;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.div-deletar h1{
+    margin-top: 20px;
+    color: rgb(37, 37, 37);
+    font-size: 24px;
+    text-align: center;
+}
+
+.div-deletar p{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.button{
+    height: 40px;
+    width: 140px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.excluir{
+    background-color: rgb(1, 169, 1);
+}
+
+.excluir:hover{
+    background-color: rgb(36, 130, 36);
+}
+
+
+.div-buttons{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.nao{
+    background-color: rgb(202, 0, 0);
+    margin-left: 30px
+}
+
+
+.nao:hover{
+    background-color: rgb(139, 24, 24);
+}

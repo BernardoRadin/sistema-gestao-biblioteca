@@ -1,0 +1,32 @@
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.animation{
+    animation: fadeIn 1s ease-in-out;
+}
+
+#disabled{
+    color: black;
+}
+
+.radio-label{
+    padding: 5px;
+    margin-top: 8px
+}
+
+.div-button{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.radio-button{
+    width: 20px;
+    height: 20px
+}
